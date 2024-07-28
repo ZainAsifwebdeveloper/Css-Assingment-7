@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.header{
+    position: relative;
+}
+header > nav{
+    border: 2px solid black;
+    background-color: rgba(24, 23, 23, 0.459);
+    margin-bottom: 5px;
+    margin-left:8px;
+    
+}
+header > nav > #logo-54 {
+    margin-top: 10px;
+    box-sizing: border-box;
+   
+} 
+header > nav > ul > li{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-size: large;
+    
+}
+header > nav > ul{
+    float: right;
+    padding-top: 25px;
+    padding-right: 40px;
+}
+header > nav > ul > li:hover{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    
+}
+.container{
+    width: 100%;
+    height: 90vh;
+    background-image: url(./img/background.webp);
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    margin-left: 9px;
+    position: relative;
+    
+}
+.container > .div1 > h1{
+    color: white;
+    padding: 10px 0px;
+}
+.span1{
+    color: tomato;
+}
+.container > .div1 > p{
+    color: white;
+    width: 60vh;
+    text-align: justify;
+    padding: 10px 0px;
+}
+.div1{
+    position: absolute;
+    top: 250px;
+    left: 50px;
+
+}
+.container > .div1 >button{
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    height: 30px;
+    width: 110px;
+    background-color: tomato;
+    color: white;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.about{
+    position: relative;
+}
+.about > img{
+    border-radius: 20px;
+    height: 300px;
+    width: 410px;
+   display: inline; 
+    margin-top: 90px;
+    margin-left: 70px;
+    margin-bottom: 90px;
+} 
+.span2{
+    color: tomato;
+
+}
+.about > .div2{
+    width: 50%;
+    position: absolute;
+    top: 90px;
+    left: 500px;
+    
+    
+}
+.about > .div2 >p{
+    text-align: justify;
+    padding-top: 30px ;
+    padding-left: 40px;
+    
+    
+}
+.about > .div2 >h2{
+    padding-left: 40px;
+}
+.about > .div2 > button{
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    height: 30px;
+    width: 110px;
+    background-color: tomato;
+    color: white;
+    margin-top: 20px;
+    margin-left: 40px;
+
+}
+.places >.div3{
+    padding-top: 50px;
+}
+.places{
+    background-color: rgba(0, 0, 0, 0.836);
+    width: 100%;
+    height: 550px;
+}
+.places > .border > #div1{
+    border: 3px solid white;
+    width: 230px;
+    height: 350px;
+    margin: 50px 30px 50px 90px;
+}
+.places > .border > #div1 >img{
+    padding-top: 9px;
+    padding-right: 9px;
+    padding-bottom: 9px;
+    padding-left: 9px;
+    border-bottom-right-radius: 20px;
+
+     
+
+}
+.places > .border > #div1 >button{
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    height: 30px;
+    width: 110px;
+    background-color: tomato;
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.places > .border > #div2{
+    border: 3px solid white;
+    width: 230px;
+    height: 350px;
+    margin: 50px 30px;
+    
+}
+.places > .border > #div2 >img{
+    padding-top: 9px;
+    padding-right: 9px;
+    padding-bottom: 9px;
+    padding-left: 9px;
+    border-bottom-right-radius: 20px;
+     
+
+}
+.places > .border > #div2 >button{
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    height: 30px;
+    width: 110px;
+    background-color: tomato;
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.places > .border > #div3{
+    border: 3px solid white;
+    width: 230px;
+    height: 350px;
+    margin: 50px 30px;
+}
+.places > .border > #div3 >img{
+    padding-top: 9px;
+    padding-right: 9px;
+    padding-bottom: 9px;
+    padding-left: 9px;
+    border-bottom-right-radius: 20px;
+     
+
+}
+.places > .border > #div3 >button{
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    height: 30px;
+    width: 110px;
+    background-color: tomato;
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.places > .border {
+    display: flex;
+}
+.footer{
+    display: flex;
+}
+i{
+    /* height: 300px;
+    width: 300px; */
+    font-size: xx-large;
+    padding-left: 12px;
+}
+
+
+
+
+   
+
